@@ -3,9 +3,9 @@ package model;
 public class ProductComponentTester {
     public static void main(String[] args) {
         // Individual products
-        ProductComponent product1 = new SingleProduct("Laptop", 1000.0, "A high-performance laptop.");
-        ProductComponent product2 = new SingleProduct("Mouse", 25.0, "Wireless mouse.");
-        ProductComponent product3 = new SingleProduct("Keyboard", 50.0, "Mechanical keyboard.");
+        ProductComponent product1 = new SingleProduct("Laptop", 1000.0, 750, "A high-performance laptop.", 8);
+        ProductComponent product2 = new SingleProduct("Mouse", 25.0, 15, "Wireless mouse.", 20);
+        ProductComponent product3 = new SingleProduct("Keyboard", 50.0, 35, "Mechanical keyboard.", 15);
 
         // Bundle of accessories
         ProductBundle accessoryBundle = new ProductBundle("Accessory Bundle");
