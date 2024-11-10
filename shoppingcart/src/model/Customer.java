@@ -11,4 +11,9 @@ public class Customer extends User {
     public ShoppingCart getCart() {
         return cart;
     }
+
+    @Override
+    public String getRole() {
+        return "Customer";
+    }
 }

@@ -9,7 +9,9 @@ public abstract class User {
         this.password = password;
     }
 
-    public boolean validateCredentials(String inputUsername, String inputPassword) {
-        return username.equals(inputUsername) && password.equals(inputPassword);
+    public boolean validatePassword(String inputPassword) {
+        return password.equals(inputPassword);
     }
+
+    public abstract String getRole();
 }

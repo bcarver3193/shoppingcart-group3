@@ -28,4 +28,9 @@ public class Seller extends User {
     public List<SingleProduct> getInventory() {
         return new ArrayList<>(inventory);
     }
+
+    @Override
+    public String getRole() {
+        return "Seller";
+    }
 }
