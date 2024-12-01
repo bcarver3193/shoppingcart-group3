@@ -32,6 +32,10 @@ This application simulates an e-commerce system where users can browse products,
 
 ## Running the Application
 
+A pre-built jar-file is available in the `out/artifacts/shoppingcart_new_jar` folder. 
+
+However, if you wish to build the program yourself the steps are as follows:
+
 1.  Make sure you have Java Development Kit (JDK) installed on your system.
 2.  Compile all the Java files in the `src` folder.
 3.  Run the `Main.java` file to start the application.
