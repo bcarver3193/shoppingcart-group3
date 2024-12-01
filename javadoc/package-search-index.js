@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cop4331"},{"l":"cop4331.controller"},{"l":"cop4331.model"},{"l":"cop4331.model.customer"},{"l":"cop4331.model.seller"},{"l":"cop4331.view.customer"},{"l":"cop4331.view.login"},{"l":"cop4331.view.seller"}];updateSearchResults();
